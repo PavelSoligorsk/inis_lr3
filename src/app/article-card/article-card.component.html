@@ -1,0 +1,11 @@
+<article class="card">
+  <img class="cover" [src]="item.imageUrl" [alt]="item.title">
+  <div class="body">
+    <h2>{{ item.title }}</h2>
+    <p>{{ item.previewText }}</p>
+    <span class="author">
+      <span class="avatar" aria-hidden="true"></span>
+      {{ item.author }}
+    </span>
+  </div>
+</article>
